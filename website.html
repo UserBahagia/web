@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sederhana</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #e0f7e9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #3b7a57;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2f5d43;
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+        nav a:hover {
+            background-color: #3b7a57;
+        }
+        section {
+            padding: 2em;
+        }
+        .blog-post, .experience-item, .tentang {
+            background-color: #ffffff;
+            margin: 1em 0;
+            padding: 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(14, 6, 6, 0.1);
+        }
+        footer {
+            background-color: #2f5d43;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Website Saya</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#blog">Blog</a>
+        <a href="#experience">Pengalaman</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="tentang">
+            <h3>Tugas Kelompok</h3>
+            <p>Website ini dapat dibuat berkat kerja sama:</p>
+            <ul>
+                <li>Hadid Ahsan Alfajri</li>
+                <li>Muhammad Maulana Ilham</li>
+                <li>Dan kawan-kawan</li>
+            </ul>
+        </div>
+        <div class="tentang">
+            <h3>Pembuatan web</h3>
+            <p>Website ini dibuat dengan bantuan software Visual Studio Code. Awalnya website ini akan dibuat seperti website-website modern tetapi karna terlalu sulit dan 
+                banyak sekali kode-kodenya, maka kami menggantinya dengan menggunakan desain web sederhana berwarna hijau. Alhasil seperti inilah tampilan web kami
+            </p>
+        </div>
+    </section>
+    <section id="blog">
+        <h2>Sekolah</h2>
+        <div class="blog-post">
+            <h3>Pesantren Darul Ulum</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, aspernatur porro inventore facilis natus consectetur, beatae exercitationem dolor dolorum facere laborum. Rem quam modi blanditiis eveniet fugit. Error, vel quod!
+            Voluptas, ut eum possimus voluptates expedita deleniti cupiditate ea ducimus eius illum dolorum fuga cum odit corrupti. Perspiciatis nisi, ut nostrum in totam nam explicabo eius numquam dolorem vel soluta!</p>
+        </div>
+    </section>
+    <section id="experience">
+        <h2>Pengalaman</h2>
+        <div class="experience-item">
+            <h3>Sekolah Menengah Kejuruan</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia beatae excepturi suscipit adipisci, illo accusantium natus! Quos illo quas natus? Unde fuga officiis error veritatis amet earum ea voluptatem adipisci.</p>
+        </div>
+    </section>
+    <footer>
+        <p>@ 2024 SMK Pesantren Darul Ulum</p>
+    </footer>
+</body>
+</html>
