@@ -1,0 +1,45 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e0f7e9;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #3b7a57;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #2f5d43;
+}
+nav a {
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    margin: 0 1em;
+}
+nav a:hover {
+    background-color: #3b7a57;
+}
+section {
+    padding: 2em;
+}
+.blog-post, .experience-item, .tentang {
+    background-color: #ffffff;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(14, 6, 6, 0.1);
+}
+footer {
+    background-color: #2f5d43;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
